@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(43, 39, 63);
+}
+#header{
+    background-color: rgb(43, 39, 63) ;
+    border-bottom: 10px solid coral;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.box h1{
+    display: inline-block;
+    color: coral;
+    font-family: sans-serif;
+    margin-top: 15px ;
+    padding: 15px;
+    font-size: 44px;
+}
+.box ul{
+    float: right;
+    margin-top: 50px;
+}
+.box li a{
+     color: coral;
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.box li a:hover{
+    color: cornsilk;
+}
+.box li{
+    display: inline-block;
+     margin: 10px;
+    list-style-type: none;
+}
+.header{
+    background: url(../images/help.jpg) center/cover;
+    height: 65vh;
+    text-align: center;
+    color: white;
+    border-bottom: 10px solid coral;
+}
+.header h3{ 
+    padding: 20px;
+    color: yellow;
+    font-size: 38px;
+    font-family: sans-serif;
+}
+.header p{
+    color: rgb(0, 11, 167);
+    font-family: sans-serif;
+    font-size: 23px;
+}
+.branch{
+    background-color:rgb(43, 39, 63) ;
+    height: 10vh;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.input input{
+    color: rgb(67, 212, 0 88, 40);
+    height: 25px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 15px;
+}
+.input button{
+    color: rgb(0, 0, 0);
+    height: 25px;
+    margin-top: 20px 0;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.input input:hover{
+    color: cornsilk;
+    background-color: rgb(43, 39, 63);
+}
+.input button:hover{
+    color: cornsilk;
+    background-color: rgb(43, 39, 63);
+}
+.footer{
+    background-color: rgb(107, 235, 240);
+    text-align: center;
+}
+.footer p{
+    margin: 40px 0 50px;
+    color: #02021a;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}

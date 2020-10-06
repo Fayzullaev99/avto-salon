@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: rgb(43, 39, 63) ;
+    border-bottom: 10px solid coral;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.box h1{
+    display: inline-block;
+    color: coral;
+    font-family: sans-serif;
+    margin-top: 15px ;
+    padding: 15px;
+    font-size: 44px;
+}
+.box ul{
+    float: right;
+    margin-top: 50px;
+}
+.box li a{
+     color: coral;
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.box li a:hover{
+    color: cornsilk;
+}
+.box li{
+    display: inline-block;
+     margin: 10px;
+    list-style-type: none;
+}
+.box-2{
+    background: url(../images/avtosalon.jpg) center/cover;
+    height: 100vh;
+    
+}
+.box-2 p, h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: hsl(9, 100%, 50%);
+}
+.box-2 h3{
+   padding-top: 150px;
+   font-size: 33px;
+   color: #0400f6;
+}
+#out{
+    color: rgb(43, 39, 63)  ;
+    background: rgb(43, 39, 63)  ;
+}
+.contact{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+   justify-content: space-around;
+   align-items: center; 
+}
+.img{
+    width: 33.3%;
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.img h4{
+    margin: 0 20px;
+    color: hsl(15, 100%, 99%);
+    font-family: sans-serif;
+}
+.img img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.img img:hover{
+    width: 90px;
+    height: 90px;
+    margin: 15px;
+}
+.view{
+    text-align: center;
+}
+.view img{
+    width: 300px;
+    height: 250px;
+    margin: 10px 5px;
+    border: 5px solid #f74809;
+    border-radius: 10px;
+}
+.view img:hover{
+    border: 5px solid #fffefe;   
+}
+.clr{
+    clear: both;
+}
+.footer-bg{
+    background: rgb(43, 39, 63);
+    padding: 40px 0 50px;
+}
+.footer{
+    background-color: rgb(107, 235, 240);
+    text-align: center;
+}
+.footer p{
+    color: #02021a;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 20px;   
+}
